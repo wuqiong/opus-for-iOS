@@ -9,7 +9,7 @@ echo "*********************************************"
 echo "*********************************************"
 
 
-OPUS_GIT_URL=git://git.opus-codec.org/opus.git
+OPUS_GIT_URL=http://git.opus-codec.org/opus.git
 OPUS_DIR=.opus
 
 #rm -rf $OPUS_DIR;
