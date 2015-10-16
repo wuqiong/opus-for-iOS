@@ -106,7 +106,7 @@ then
 		XCRUN_SDK=`echo $PLATFORM | tr '[:upper:]' '[:lower:]'`
 		CC="xcrun -sdk $XCRUN_SDK clang -arch $ARCH"
 		#AS=""
-		CFLAGS="-arch $ARCH $SIMULATOR -D__OPTIMIZE__"
+		CFLAGS="-arch $ARCH $SIMULATOR -D__OPTIMIZE__ -fembed-bitcode"
 		CXXFLAGS="$CFLAGS"
 		LDFLAGS="$CFLAGS"
 
